@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario con DIV</title>
+</head>
+<!-- Uso de cajas para organizar el codigo agrupando elementos (Secciones)-->
+<body>
+    <form action="/registro" method="post">
+        <div>
+            <label for="nombre_completo">Tu nombre completo:</label>
+            <input type="text" id="nombre_completo" name="nombre_completo" placeholder="Ingresa tu nombre">
+        </div>
+
+        <div>
+            <label for="correo">Correo electrónico:</label>
+            <input type="text" id="correo" name="correo" placeholder="Ingresa tu correo">
+        </div>
+
+        <div>
+            <label for="contraseña">Contraseña:</label>
+            <input type="password" id="contraseña" name="contraseña" placeholder="Ingresa tu contraseña" />
+        </div>
+
+        <div>
+            <input type="checkbox" id="suscribirse" name="suscribirse" checked>
+            <label for="suscribirse">Deseo suscribirme al boletín informativo.</label>
+        </div>
+
+        <div>
+            <input type="submit" value="Registrarse">
+        </div>
+    </form>
+</body>
+
+</html>
