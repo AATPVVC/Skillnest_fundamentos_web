@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+   font-family: 'Roboto', sans-serif;
+}
+
+
+.container{
+    padding: 20px;
+}
+
+.textoIzquierda {
+   text-align: left;  /* Alineado a la izquierda */
+}
+
+.textoCentro {
+   text-align: center;  /* Alineado al centro */
+}
+
+.textoDerecha {
+   text-align: right;  /* Alineado a la derecha */
+}
+/* Decoracion de texto*/
+.subtitulo1 {
+   text-decoration: underline;  /* Subrayado */
+   font-style: italic;  /* Cursiva */
+}
+
+.tachado {
+   text-decoration: line-through;  /* Texto tachado */
+}
+
+.sinDecoracion {
+   text-decoration: none;  /* Sin decoración */
+}
+/* Grosor de fuente */
+.negrita {
+   font-weight: bold;  /* Negrita */
+}
+
+.seminegrita {
+   font-weight: 300;  /* Fuente más delgada */
+}
