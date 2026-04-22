@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.encabezado {
+        width: 100%;
+        background-color: grey;
+        padding: 20;
+}
+.titulo_header {
+        text-align: center;
+        color: white;
+}
+.container {
+    outline: solid 1px;
+    margin: 0 auto;
+    width: 900px;
+    padding: 20px;
+}
+*/ */
+.aceptar {
+   width: 100px;
+   height: 50px;
+}
+
+.caja1 {
+    margin: 0 auto;
+   width: 80%;
+   height: 200px;
+   background-color: green;
+}
+.parrafo1 {
+   font-size: 50px;
+}
+
+.link1 {
+   font-size: 120%;
+}
+.cursiva {
+    color:aqua;
+    margin: 15px;
+    font-style: italic;
+}
