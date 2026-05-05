@@ -1,0 +1,84 @@
+
+.contenedor {
+   text-align: center;
+}
+
+.tarjeta {
+   display: inline-block;
+   width: 150px;
+   height: 100px;
+   background-color: lightseagreen;
+   margin: 10px;
+   text-align: center;
+   line-height: 100px;
+   border-radius: 10px;
+   color: white;
+   font-weight: bold;}
+
+
+
+ * {
+   padding: 0px;
+   margin: 0px;
+   box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif;
+ } 
+ /*Header*/
+ .header{
+   background-color: midnightblue;
+   color: white;
+   padding: 20px;
+   text-align: center;
+ } 
+ .menu{
+   margin-top: 10px;
+ }
+ .boton{
+   display: inline-block;
+   background-color: blueviolet;
+   color: white;
+   text-decoration: none;
+   padding: 10px 20px;
+   margin: 5px;
+   border-radius: 5px;
+ }
+ .boton:hover{
+   background-color: dimgrey;
+ }
+ /*Main*/
+ .contenedor-principal{
+   padding: 25px 50px;
+ }
+ .resaltado{
+   display: inline;
+   background-color: chartreuse;
+   font-weight: bold;
+ }
+ .contenedor_tarjetas{
+   text-align: center;
+   padding: 20px;
+ }
+.box {
+   display: inline-block;
+   width: 150px;
+   height: 100px;
+   background-color:cadetblue ;
+   color: white;
+   margin: 10px;
+   padding: 10px;
+   border-radius: 10px;
+}
+.bloque{
+   display: block;
+   background-color: brown;
+   color: white;
+   margin: 10px;
+   padding: 15px;
+}
+/*Footer*/
+.footer{
+   background-color: darkgrey;
+   color: white;
+   text-align: center;
+   padding: 15px;
+}

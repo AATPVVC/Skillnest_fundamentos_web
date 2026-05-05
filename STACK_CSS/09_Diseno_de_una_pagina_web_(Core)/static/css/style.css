@@ -1,0 +1,40 @@
+ * {
+     padding: 0px;
+     margin: 0px;
+     box-sizing: border-box;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .header {
+     background-color: #173353;
+     color: white;
+     padding: 20px;
+     text-align: center;
+ }
+
+ .menu {
+     background-color: #204875;
+     text-align: center;
+ }
+
+ .boton {
+     display: inline-block;
+     color: white;
+     text-decoration: none;
+     padding: 10px 20px;
+     margin: 5px;
+ }
+
+ .container {
+     background-color: #FFFFFF;
+     box-shadow: black;
+     display: inline-block;
+     width: 1000px;
+     height: 100px;
+     margin: 10px;
+     text-align: center;
+     line-height: 100px;
+     border-radius: 10px;
+     color: rgb(29, 27, 27);
+     font-weight: bold;
+ }

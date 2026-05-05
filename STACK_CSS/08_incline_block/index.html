@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Angel Alvarez">
+    <title>Ejemplo mini-sitio inline-block</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Mi sitio web
+        </h1>
+        <nav class="menu">
+            <a href="#" class="boton">Inicio</a>
+            <a href="#" class="boton">Servicios</a>
+            <a href="#" class="boton">Contactos</a>
+        </nav>
+    </header>
+    <main class="contenedor_principal">
+        <!--Texto con elementos  inline-->
+        <section>
+            <h2>Texto con elementos inline</h2>
+            <p>
+                Este es un ejemplo donde usamos <span class="resaltado">Inline</span> para resaltar
+                texto sin romper la linea de parrafo.
+            </p>
+        </section>
+        <!--Tarjetas (inline block)-->
+        <section class="contenedor_tarjetas">
+            <h2>Tarjetas (inline-Block)</h2>
+            <div class="box">tarjeta 1</div>
+            <div class="box">tarjeta 2</div>
+            <div class="box">tarjeta 3</div>
+        </section>
+        <!--Bloques (block)-->
+        <section>
+            <h2>bloques (block)</h2>
+            <div class="bloque">Bloque 1</div>
+            <div class="bloque">Bloque 2</div>
+            <div class="bloque">Bloque 3</div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>2026 - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
