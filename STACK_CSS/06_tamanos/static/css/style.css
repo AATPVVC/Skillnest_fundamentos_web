@@ -22,6 +22,9 @@
     width: 900px;
     padding: 20px;
 }
+.row {
+    padding: 30px;
+}
 /*
 
 */ 
@@ -96,18 +99,64 @@
    background: green url("/STACK_CSS/06_tamanos/static/images/banner.png") no-repeat fixed center center;
    background-size: 120%;
 }
-.aceptar {
-   border: 2px dotted green;
+.cancelar {
+   border: 2px dotted rgb(255, 0, 0);
+   
+   padding: 20;
 }
 
 .articulo {
-   border: 1px solid black;
+   border: 2px solid black;
+   height: 50;
+   width: 100;
+   display:inline-block
 }
 /*🟢 Bordes redondeados*/
-button {
-   border-radius: 5px;
+.boton_redondeado {
+    padding: 10px 40px;
+   border-radius: 15px;
+   cursor: pointer;
 }
 
-div {
+.caja_redondeada{
+    height: 40px;
+    width: 40px;
+    padding: 10px 16px;
+    background-color: darkgreen;
+    font-weight: bold;
+    color: chartreuse;
    border-radius: 50%;
+}
+.cajitas {
+    width: 150;
+    height: 40;
+    outline: solid 1px rebeccapurple;
+
+}
+.box1 {
+    background-color: royalblue;
+    padding: 10px;
+}
+.box2 {
+    background-color: wheat;
+    padding-top: 0px;   /*Espacio interno: arriba*/
+    padding-right: 5px; /*Espacio interno: deracha*/
+    padding-bottom: 0px;    /*Espacio interno: abajo*/
+    padding-left: 5px;  /*Espacio interno: izquierda*/
+    /*padding: 0px 5px 0px 5px--> aplicando en todos los lados*/
+    /*padding: 0px 5px --> en (Y) y (X)*/
+}
+.box3 {
+    background-color: hotpink;
+    margin: 10px;
+
+}
+.box4 {
+    background-color: darkblue;
+    margin: 0px 20px;
+    padding: 5px 0px;
+}
+.box5 {
+   float: left;
+   width: 50%;
 }
