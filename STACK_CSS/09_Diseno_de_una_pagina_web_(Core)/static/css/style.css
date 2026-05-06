@@ -1,40 +1,85 @@
- * {
-     padding: 0px;
-     margin: 0px;
-     box-sizing: border-box;
-     font-family: Arial, Helvetica, sans-serif;
- }
+.contenedor {
+    text-align: center;
+}
 
- .header {
-     background-color: #173353;
-     color: white;
-     padding: 20px;
-     text-align: center;
- }
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
- .menu {
-     background-color: #204875;
-     text-align: center;
- }
+body{
+    background-color: rgb(255, 255, 255);
+}
+/* HEADER */
+.header{
+    background-color: #173353;
+    color: white;
+    padding-top: 15px;
+    text-align: center;
+}
+.menu{
+    margin-top: 10px;
+    background-color: #204875;
+    padding: 20px;
+}
+.boton{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
 
- .boton {
-     display: inline-block;
-     color: white;
-     text-decoration: none;
-     padding: 10px 20px;
-     margin: 5px;
- }
+.parrafo{
+    padding: 30px;
+}
 
- .container {
-     background-color: #FFFFFF;
-     box-shadow: black;
-     display: inline-block;
-     width: 1000px;
-     height: 100px;
-     margin: 10px;
-     text-align: center;
-     line-height: 100px;
-     border-radius: 10px;
-     color: rgb(29, 27, 27);
-     font-weight: bold;
- }
+.contenedor_principal{
+    padding: 20px 100px;
+}
+.super_contenedor{
+    background-color: rgb(255, 255, 255);
+    padding:35px;
+    margin-top: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgb(204, 204, 204);
+}
+.intro{
+    text-align: center;
+    padding: 50px;
+    background-color: #204875;
+    color: white;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.intro h2{
+    margin-bottom: 15px;
+}
+
+.bloque{
+    text-align: center;
+    display: inline-block;
+    background-color: #00A4DE;
+    color: white;
+
+    width: 290px;
+    height: 180px;
+
+    padding: 10px;
+    margin: 10px;
+    margin-top: 30px;
+
+    border-radius: 5px;
+}
+.bloque .subtitulo{
+    padding: 0;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+/* FOOTER */
+.footer{
+    background-color: rgb(117, 95, 138);
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
