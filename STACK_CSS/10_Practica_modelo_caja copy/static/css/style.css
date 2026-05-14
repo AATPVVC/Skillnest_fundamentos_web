@@ -1,0 +1,71 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header {
+    font-size: 20px;
+    font-weight: 20px;
+}
+.container {
+    width: 100%;
+}
+.barra_lateral {
+    display: inline-block;
+    width: 26%;
+    height: 500px;
+    background-color: blue;
+    padding: 40px 0;
+    font-size: 16px;
+    text-align: center;
+}
+.boton {
+    display: inline-block;
+    background-color: yellow;
+    color: aqua;
+    padding: 12px 0;
+    width: 70%;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 25px;
+}
+.contenido {
+    display: inline-block;
+    width: 70%;
+    margin-left: 4%;
+    font-size: 16px;
+}
+.caja-roja {
+    background-color: red;
+    width: 100%;
+    padding: 20px;
+}
+.caja-morada {
+    background-color: blueviolet;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 20px;
+}
+.boton_saber {
+    display: inline-block;
+    background-color: white;
+    border: none;
+    color: blueviolet;
+    padding: 20px 40px;
+    font-weight: bold;
+    border-radius: 25px;
+}
+.lineas {
+    margin-top: 30px;
+    padding-left: 15px;
+}
+.linea {
+    background-color: #bcb9b9;
+    height: 8px;
+    margin-bottom: 16px;
+    width: 95%;
+}
+.corta {
+    width: 75%;
+}

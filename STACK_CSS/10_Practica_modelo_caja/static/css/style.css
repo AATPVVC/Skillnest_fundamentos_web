@@ -1,0 +1,37 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: #DBD8D8;
+    padding: 20px;
+}
+.header {
+    background-color: #208613;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+.container {
+   margin: 30px;
+}
+.boton {
+    margin: 10px;
+    padding: auto;
+     width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: yellow;
+}
+
+.caja1 {
+    margin-left: 20px   ;
+    background-color: #2B5CDC;
+    padding: 30px;
+    width: 200px;
+    height: 300px;
+   
+}
