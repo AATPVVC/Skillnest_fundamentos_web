@@ -1,0 +1,41 @@
+body {
+   font-family: Arial, sans-serif;
+   background-color: #f8f9fa;
+}
+
+.container {
+   /* Estilos generales del contenedor */
+   width: 1000px;
+   background-color: #fff;
+   border: 2px solid #ccc;
+   border-radius: 10px;
+   margin: 40px auto;
+   padding: 50px 0;
+
+   /* Flexbox */
+   display: flex;
+   /* Distribución con espacio uniforme */
+   flex-direction: column;
+}
+.titulo {
+    padding: 5px 20px;
+}
+.images {
+    display: flex;
+}
+.flex-star {
+    justify-content: start;
+}
+.center {
+    justify-content: center;
+}
+.flex-end {
+    justify-content: end;
+}
+
+
+/* Estilos generales de las imágenes */
+img {
+   width: 150px;
+   height: 150px;
+}
