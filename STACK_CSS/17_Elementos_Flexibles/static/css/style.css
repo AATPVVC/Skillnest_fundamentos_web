@@ -1,0 +1,35 @@
+/* Contenedor principal */
+.container {
+    /* Flexbox */
+    display: flex;
+    /* Espacio entre columnas */
+    gap: 10px;
+}
+
+/* Estilos generales para columnas */
+.column {
+    padding: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+/* Distribución flexible */
+.col-1 {
+    background-color: #3498db;
+    /* Ocupa una parte del espacio disponible */
+    flex: 1;
+}
+
+.col-2 {
+    background-color: #e74c3c;
+    /* Ocupa el doble del espacio de la primera */
+    flex: 2;
+}
+
+.col-3 {
+    background-color: #2ecc71;
+    /* Ocupa el mismo espacio que la primera */
+    flex: 1;
+}

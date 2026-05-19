@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilos generales */
+body {
+    display: flex;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+    gap: 15px;
+    padding: 30px;
+    margin: 0px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* Contenedor de filas */
+.row {
+    display: flex;
+    gap: 15px;
+}
+
+/* Estilos generales para columnas */
+.col {
+    background-color: #87CEEB;
+    flex: 1;
+    border-radius: 10px;
+    padding: 20px;
+    transition: background-color 0.5s ease;
+}
+.col:hover {
+    background-color: rgb(187, 0, 56);
+}
+
+/* Ajuste de tamaños específicos */
+.col-2 {
+    background-color: #87CEEB;
+    flex: 2;
+}
+
+.col-3 {
+    background-color: #87CEEB;
+    flex: 3;
+}
