@@ -1,33 +1,34 @@
 * {
     padding: 0;
     margin: 0;
-    
     box-sizing: border-box;
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
 }
 
 .navbar {
     background-color: #FFFDFD;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.664 );
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.664);
     padding: 20px 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
 }
 
 .nav-links {
     display: flex;
     gap: 20px;
 }
+
 .logo {
     color: black;
     font-size: 1.5rem;
     font-weight: 700;
-} 
+}
 
 .nav-links a {
     color: black;
@@ -37,19 +38,22 @@ body {
     border-radius: 5px;
     transition: transform 0.3s ease;
 }
+
 .Comenzar {
     background-color: #216FEB;
     color: aliceblue;
-    border:none;
+    border: none;
     padding: 12px 24px;
     font-size: 1rem;
     font-weight: 600;
     cursor: pointer;
     border-radius: 6px;
 }
+
 .blue {
     color: #216FEB;
 }
+
 .seccion-principal {
     display: flex;
     background-color: #2585eb2c;
@@ -58,20 +62,64 @@ body {
     gap: 50px;
     padding: 80px 50px;
 }
+
 .two {
     display: flex;
     flex: 1;
     flex-direction: column;
     gap: 15px;
 }
+
 .botones {
-    
+    display: flex;
 }
+
+.enlace-mas {
+    padding: 12px 24px;
+}
+
 .Imagenes {
     justify-content: center;
     flex: 1;
-   
 }
+
 .img {
     width: 300px;
 }
+
+.seccion-secundaria {
+    padding: 30px;
+    border: 2px solid #ccc;
+    border-radius: 2px;
+    background-color: #FFFDFD;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   text-align: center;
+}
+
+.three {
+ display: flex;
+}
+.carta {
+gap :20px;
+display: flex;
+flex: 1;
+flex-direction: column;
+justify-content: center;
+}
+
+.carta img{
+    width: 150px;
+    margin: 0 auto;
+}
+
+.navbarr {
+    background-color: #FFFDFD;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
