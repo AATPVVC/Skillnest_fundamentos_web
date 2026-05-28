@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.principal {
+    display: flex;
+    justify-content: center;
+    padding: 125px 0px;
+}
+
+.tarjeta {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px black;
+    flex-direction: column;
+    gap: 25px;
+    width: 400px;
+    height: 400px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+}
+
+.tarjeta h1 {
+    font-size: 1, 2rem;
+    margin-top: 100px;
+}
+
+.Petazeta {
+    background-color: white;
+    border: solid 5px black;
+    height: 180px;
+    padding: 20px 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: -90px;
+}
+
+.conectar {
+    background-color: blue;
+    border: none;
+    color: white;
+    font-size: 100%;
+    border-radius: 5px;
+    padding: 20px 20px;
+    cursor: pointer;
+}
+
+.tarjeta p {
+    margin: 0px 25px;
+}
+
+.links {
+    display: flex;
+    gap: 8px;
+    font-weight: bold;
+}
