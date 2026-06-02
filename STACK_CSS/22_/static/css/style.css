@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    background-color: #2C3E50;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.664);
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.logo {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.cerrar-sesion {
+    background-color: #216FEB;
+    color: aliceblue;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 6px;
+}
+.contenedor-principal {
+    display: flex;
+    justify-content: center;
+    padding: 100px 200px;
+    flex-direction: column;
+    box-shadow: 0 5px 15px black;
+    
+}
+.izquierda{
+    border-radius: 10px;
+    box-shadow: 0 5px 15px black;
+    width: 400px;
+    border-radius: 20px;
+} 
+.box-1 {
+     width: 400px;
+    height: 90px;
+    border-radius: 10px;
+    background-color: #3498DB;
+}
+.box-2{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+   
+    flex-direction: column;
+    gap: 25px;
+    width: 400px;
+    height: 380px;
+    position: relative;
+}
+.Foto_perfil {
+    height: 180px;
+    padding: 20px 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: -90px;
+}
+.box-2 p {
+    margin: 0px 25px;
+}
+.derecha {
+    display: flex;
+    
+    flex: 1;
+}
+.tarjeta-conexiones {
+
+}
