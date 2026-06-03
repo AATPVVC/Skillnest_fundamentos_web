@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    outline: solid 1px red;
+
 }
 
 body {
@@ -109,11 +109,14 @@ flex:2;
     background-color: #fff;
     box-shadow: 0 5px 15px black;
     flex-direction: column;
+    border-radius: 10px;
 }
 .row{
     display: flex;
     justify-content: space-between;
     padding: 5px 15px;
+    align-items: center;
+    gap: 10px;
 }
 .persona{
     display: flex;
@@ -126,13 +129,19 @@ flex:2;
    gap: 10px;
 }
 .Foto_perfil-Two {
-    height: 60px;
-    padding: 20px 20px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
 }
 
 .ver_mas {
+    padding: 6px;
     border-style: none;
     color: #216FEB;
     border: solid 1px royalblue;
+    
+}
+
+.start{
+    justify-content: flex-start;
 }
