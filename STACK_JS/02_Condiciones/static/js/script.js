@@ -11,17 +11,17 @@
 //Descuento aplicado
 //Total a pagar
 function sistemaDescuento() {
-    let nombre = prompt("Ingrese su nombre:"); 
-    let monto = parseInt(prompt ("Ingrese el monto de compra:"));
-    if (monto>=50000){
-        alert(`El monto con descuento es: ${monto - (monto * 0.2)}`);
-     }else if(monto<=30000) {
-        alert(`El monto con descuento es: ${monto - (monto *0.1)}`);
-     } else if (monto>= 30000 && monto >0) {
+    let nombre = prompt("Ingrese su nombre:");
+    let monto = parseInt(prompt("Ingrese el monto de compra:"));
+    if (monto >= 50000) {
+        alert(`El monto con descuento es: ${monto - monto * 0.2}`);
+    } else if (monto <= 30000) {
+        alert(`El monto con descuento es: ${monto - monto * 0.1}`);
+    } else if (monto >= 30000 && monto > 0) {
         alert(`El monto final es:${monto}.Sin descuento`);
-     } else{
+    } else {
         alert(`Ingrese valores validos`);
-     }
+    }
 }
 
 //✅ Ejercicio 2: Acceso a evento
@@ -36,17 +36,15 @@ function sistemaDescuento() {
 //“Acceso permitido”
 //o “Acceso denegado”
 function comprovaciónEdad() {
-    let edad = parseInt(prompt(""))
+    let edad = parseInt(prompt(""));
     if (edad > 18) {
-        alert("acceso permitido!")
-    } else if(edad < 18 && edad > 0) {
-        let permitido = prompt("¿Viene con acompañante?:si/no")
-        if (permitido== "si") {
-            alert(`Acceso permitido`)
-        } else if (permitido== "no")
-            alert(``)
+        alert("acceso permitido!");
+    } else if (edad < 18 && edad > 0) {
+        let permitido = prompt("¿Viene con acompañante?:si/no");
+        if (permitido == "si") {
+            alert(`Acceso permitido`);
+        } else if (permitido == "no") alert(``);
     }
-
 }
 
 //✅ Ejercicio 3: Clasificación de temperatura
@@ -58,7 +56,23 @@ function comprovaciónEdad() {
 //Además:
 //Si la temperatura supera los 35 grados, mostrar una alerta adicional:
 // “Temperatura extrema”.
-
+function mostrarTemperatura() {
+    let temperatura = parseInt(prompt("Ingresa la temperatura actual:"));
+    if (temperatura < 10 && temperatura > -30) {
+        mensaje = "Hace frio";
+    } else if (temperatura >= 10 && temperatura <= 24) {
+        mensaje = "temperatura agradable";
+    } else if (temperatura >= 25 && temperatura <= 50) {
+        mensaje = "Hace calor";
+    } else {
+        mensaje = "❌ Ingresar valores validos!";
+    }
+    // Alerta adicional
+    if (temperatura > 35 && temperatura <= 50) {
+        mensaje += "\n  ¡Alerta! Temperatura extrema";
+    }
+    alert(mensaje);
+}
 //✅ Ejercicio 4: Verificación de administrador
 //📝 Enunciado
 //Solicitar:
@@ -78,8 +92,19 @@ function comprovaciónEdad() {
 // Casos:
 // Si ambos son correctos → “Bienvenido administrador”
 // Si usuario es correcto pero contraseña incorrecta → “Contraseña incorrecta”
-// Si usuario no existe → “Usuario no encontrado”
+// Si usuario no existe → “Usuario no encontrado”+
 
+function ejercicio4() {
+    let usuario = prompt("Ingrese su nombre de usuario:");
+    let contrasena = prompt("Ingrese su contrasena:");
+    if (usuario ==="admin" && === "12345") {
+        alert("Bienvenido administrador:" + usuario)
+    } else if (usuario === admin) {
+        alert("Contraseña Incorrecta");
+    } else{
+        alert(`Usuario "${usuario}" no encontrado!`)
+    } 
+}
 // ✅ Ejercicio 5: Sistema de aprobación
 // 📝 Enunciado
 // Solicitar:
@@ -107,4 +132,3 @@ function comprovaciónEdad() {
 // Cambios visuales usando JavaScript
 // Resultados dentro del HTML usando innerHTML
 // Uso de íconos o emojis según el resultado
-
