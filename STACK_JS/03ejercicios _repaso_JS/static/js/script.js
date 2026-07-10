@@ -19,15 +19,26 @@ console.log()
 // //Categoría del envío
 // //Valor correspondiente al despacho
 
-function () {
+function ejercicio1() {
     let nombreCliente = prompt("Ingrese nombre de cliente: ");
     let peso = parseInt(prompt("Ingrese peso de paquete: "));
     let valorDespacho = 2000;
     let mensaje = "";
     //Condiciones 
-    if(peso > 0 && peso >= 2) {
+    if(peso > 0 && peso <= 2) {
         totalDespacho = peso * valorDespacho;
-    }else i
+    }else if(peso > 2 && peso <= 5){
+        totalDespacho = peso * valorDespacho;
+    } else if(peso > 5 && peso <= 10 ) {
+        totalDespacho = peso * valorDespacho;
+    } else if(peso > 10 && peso < 50) {
+        totalDespacho = peso * valorDespacho
+    } else{
+        mensaje ="Ingrese valores validos!!";
+    }
+    mensaje = `Nombre Cliente: ${nombreCliente} \nPaquete pesa: ${peso}kg
+    \nValor despacho: $$(valordespacho * peso)`;
+    alert(mensaje);
 }
 
 
@@ -56,9 +67,7 @@ function accesoBiblioteca() {
     let usuario = prompt(`Ingrese su tipo de usuario: `)
     let cantidadLibros = parseInt(prompt("Ingrese la cantidad que va retirar: "))
 
-    if() {
-
-    }
+    if() 
 }
 
 
