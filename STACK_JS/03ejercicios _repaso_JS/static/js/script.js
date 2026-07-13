@@ -65,9 +65,22 @@ function ejercicio1() {
 
 function accesoBiblioteca() {
     let usuario = prompt(`Ingrese su tipo de usuario: `)
+    let prestamoEstudiante = 10;
+    let prestamoProfesor = 20;
     let cantidadLibros = parseInt(prompt("Ingrese la cantidad que va retirar: "))
-
-    if() 
+    let mensaje =""
+    if(usuario === "Estudiante" && libros <= prestamoEstudiante) {
+        mensaje = `Bienvenido Estudiante\nPrestamo de libros concedido`;
+    } else if (libros > prestamoEstudiante) {
+        mensaje = `La cantidad de libros supera el limite establecido\nPrestamo denegado`;
+    } else if(usuario =="Profesor" && libros <= prestamoProfesor) {
+        mensaje = `Bienvenido Profesor \nPrestamo de libros concendido`;
+    }else if (libros > prestamoProfesor) {
+        mensaje = `La cantidad libros supera el prestamo designado\nPrestamo denegado`;
+    } else {
+        mensaje ="Ingrese un usuario valido"
+    }
+    alert(mensaje);
 }
 
 
@@ -87,7 +100,11 @@ function accesoBiblioteca() {
 // Edad
 // Categoría asignada
 
-
+function ejercicio3() {
+    let nombre = prompt("Ingrese su nombre: ")
+    let edad = parseInt(prompt("Ingrese su edad: "))
+    
+}
 
 // Ejercicio 4: Sistema de Bonificación
 // Enunciado
