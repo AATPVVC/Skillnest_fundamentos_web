@@ -103,7 +103,17 @@ function accesoBiblioteca() {
 function ejercicio3() {
     let nombre = prompt("Ingrese su nombre: ")
     let edad = parseInt(prompt("Ingrese su edad: "))
-    
+    if (edad <= 10 && edad > 0) {
+        alert(`Nombre: ${nombre} \nEdad: ${edad} \nCategoria: niño`)
+    } else if (edad >= 11 && edad <= 17) {
+        alert(`Nombre: ${nombre} \nEdad: ${edad} \nCategoria: adolecente`)
+    } else if(edad >= 18 && edad <=60) {
+         alert(`Nombre: ${nombre} \nEdad: ${edad} \nCategoria: Adulto`)
+    } else if(edad >= 60 && edad <=100) {
+         alert(`Nombre: ${nombre} \nEdad: ${edad} \nCategoria: Adulto Mayor`)
+    } else{
+        alert("Ingrese valore validos")
+    }
 }
 
 // Ejercicio 4: Sistema de Bonificación
@@ -122,7 +132,29 @@ function ejercicio3() {
 // Nivel de antigüedad
 // Mensaje indicando si recibe o no bonificación.
 
-
+function ejercicio4() {
+    let nombreTrabajador = prompt(`Ingrese su nombre: `)
+    let años = parseInt(prompt(`Ingrese años de servicio`));
+    let mensaje =""
+    if (años == 0 ) {
+        mensaje = `Nombre: ${nombreTrabajador} \nlo sentimos, no recibiras la bonificacion 
+        \nya que no lleva suficiente tiempo en la empresa`;
+    } else if (años > 0 && años <= 2) {
+        mensaje = `Nombre: ${nombreTrabajador}
+        \nNivel de antiguedad: Nivel ${años} \nSe le dara una bonificacion desde 5% a 7%`;
+    } else if(años >= 2 && años <= 5) {
+        mensaje = `Nombre: ${nombreTrabajador}
+        \nNivel de antiguedad: Nivel ${años} \nSe le dara una bonificacion desde 8% a 10%`;
+    } else if (años > 5 && años <= 9) {
+        mensaje = `Nombre: ${nombreTrabajador}
+        \nNivel de antiguedad: Nivel ${años} \nSe le dara una bonificacion desde 10% a 12%`
+    } else if (años >= 9 && años <= 12) {
+        mensaje = `Nombre: ${nombreTrabajador}
+        \nNivel de antiguedad: Nivel ${años} \nSe le dara una bonificacion del 15%`
+    } else{
+        mensaje = `Ingrese valore validos`
+    }
+}
 
 // Ejercicio 5: Evaluación de Velocidad
 // Enunciado
@@ -155,3 +187,15 @@ function ejercicio3() {
 // Uso de else.
 // Uso de operadores de comparación.
 // Uso de operadores lógicos cuando corresponda.
+
+function ejercicio5() {
+    let nombreConductor = prompt("Ingrese nombre del coductor: ");
+    let velocidad = parseInt(prompt("Ingrese velocidad"));
+    let limiteVelocidad = 90;
+    let mensaje = ""
+    if (limiteVelocidad <= velocidad && velocidad >= 85) {
+        mensaje = "Velocidad limite"
+    }else if(limiteVelocidad > velocidad && velocidad >= 65) {
+        mensaje = "Velocidad "
+    }
+}
