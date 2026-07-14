@@ -196,6 +196,6 @@ function ejercicio5() {
     if (limiteVelocidad <= velocidad && velocidad >= 85) {
         mensaje = "Velocidad limite"
     }else if(limiteVelocidad > velocidad && velocidad >= 65) {
-        mensaje = "Velocidad "
+        mensaje = "Velocidad"
     }
 }
