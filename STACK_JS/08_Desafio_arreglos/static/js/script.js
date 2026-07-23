@@ -17,7 +17,7 @@ for (let i = 0; i < videojuegos.length; i++) {
     }
 }
 
-alert("Juegos recomendados: ", recomendados);
+alert(`Juegos recomendados: ${recomendados}`);
 }
 
 //
@@ -41,8 +41,8 @@ for (let i = 0; i < historialReproduccion.length; i++) {
     }
 }
 
-alert("La canción", cancionBuscada, "se reprodujo",
-    contador, "veces.");
+alert(`La canción ${cancionBuscada} se reprodujo,
+    ${contador} veces.`);
 }
 //
 
@@ -71,7 +71,7 @@ for (let i = 0; i < jugadores.length; i++) {
     }
 }
 
-alert("Grupos formados: ", grupos);
+alert(`Grupos formados: ${ grupos}`);
 }
 //
 
@@ -93,6 +93,6 @@ for (let i = 0; i < cantidadAtendidos; i++) {
 
 filaClientes = filaClientes.slice(cantidadAtendidos);
 
-alert("Clientes atendidos: ", atendidos);
-alert("Clientes en espera: ", filaClientes);
+alert(`Clientes atendidos: ${ atendidos}`);
+alert(`Clientes en espera:  ${filaClientes}`);
 }
