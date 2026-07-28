@@ -1,71 +1,108 @@
-
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-.header {
-    font-size: 20px;
-    font-weight: 20px;
+
+body {
+    background-color: #e0e0e0;
+    padding: 40px 5%;
+    font-family: sans-serif;
 }
-.container {
+
+.cabezita {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 30px 0px;
+    margin-bottom: 20px;
     width: 100%;
 }
-.barra_lateral {
+
+.header h1 {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.principal_container {
+    width: 100%;
+}
+
+.lateral_bar {
     display: inline-block;
     width: 26%;
-    height: 500px;
+    height: 400px;
     background-color: blue;
     padding: 40px 0;
     font-size: 16px;
     text-align: center;
 }
-.boton {
+
+.botoncito-amrillito {
     display: inline-block;
     background-color: yellow;
-    color: aqua;
+    color: rgba(0, 0, 0, 0.651);
     padding: 12px 0;
     width: 70%;
     border: none;
     margin-bottom: 20px;
     border-radius: 25px;
 }
-.contenido {
+
+.content {
     display: inline-block;
-    width: 70%;
+    width: 69%;
     margin-left: 4%;
     font-size: 16px;
+    vertical-align: top;
 }
-.caja-roja {
+
+.cajajita-rojita {
     background-color: red;
     width: 100%;
     padding: 20px;
 }
-.caja-morada {
-    background-color: blueviolet;
+
+.cuadrado-yellow {
+    vertical-align: top;
+    display: inline-block;
+    background-color: yellow;
+    width: 31%;
+    height: 200px;
+    margin-top: 0 1%;
+}
+
+.cajita-moradita {
+    background-color: purple;
     text-align: center;
     padding: 30px 0;
     margin-top: 20px;
+    margin-left: 1%;
+    font-size: 16px;
 }
-.boton_saber {
+
+.botoncito-conocer-mas {
     display: inline-block;
-    background-color: white;
+    background-color: #e0e0e0;
     border: none;
-    color: blueviolet;
-    padding: 20px 40px;
+    color: purple;
+    padding: 12px 40px;
     font-weight: bold;
     border-radius: 25px;
 }
-.lineas {
+
+.lines{
     margin-top: 30px;
     padding-left: 15px;
 }
-.linea {
+
+.line {
     background-color: #bcb9b9;
     height: 8px;
     margin-bottom: 16px;
     width: 95%;
 }
-.corta {
+
+.short{
     width: 75%;
 }
