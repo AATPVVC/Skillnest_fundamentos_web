@@ -50,4 +50,19 @@ function tresParametros(a,b,c) {
 let resultadoFinal = tresParametros(5, 10, 3);
 alert(`El resultado final es: ${resultadoFinal}`);
 }
-
+/*
+Crear una funcion reciba u n parametro y permita a través
+bucle contar hasta este.
+ej: Se recibe el numero y muestra: 1-2-3-4-5 
+ */
+function mostrarConteo() {
+   let parametro =parseInt(prompt(`Ingrese limite del contador`));
+   resultado = contarNumeros(parametro);
+   alert(resultado.join(" - "))
+}
+function contarNumeros(a) {
+   let numeros = []
+   for(let i = 1; i <= a; i++){
+      numeros.push(i)
+   }
+}
