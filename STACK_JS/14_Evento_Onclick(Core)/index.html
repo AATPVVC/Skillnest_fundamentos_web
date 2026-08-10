@@ -5,13 +5,51 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta name="author" content="Angel Alvarez">
-   <title>Ejemplo this</title>
+   <title>Evento onclick(Core)</title>
    <link rel="stylesheet" href="static/css/style.css">
    <script src="static/js/script.js" defer></script>
 </head>
 
 <body>
-   
+   <nav class="navbar">
+      <div class="logo">
+         <h1>Social Blog</h1>
+      </div>
+      <input type="text" placeholder="Buscar publicaciones..."  class="buscador">
+      <div class="nav-links">
+         <button id="iniciar" class="Iniciar">Iniciar sesion</button>
+      </div>
+   </nav>
+   <main class="container">
+      <section class="izquierda">
+         <div class="arriba">
+            <h2>Fundamentos de JavaScript</h2>
+            <p><span class="negrita">Publicado por:</span> Carlos Peréz</p>
+            <p><span class="negrita">Fecha:</span>02/03/2025</p>
+            <p>JavaScript es un lenguaje de programacion que se utiliza en
+               el desarrollo web.Aprende los conceptos basicos para comenzar a programar.
+            </p>
+            <button onclick="aumentarLikes(this)" class="meGusta" ><span>12</span> Me gusta</button>
+         </div>
+         <div class="abajo">
+            <h2>Aprende a diseñar con CSS</h2>
+            <p><span class="negrita">Publicado por:</span>Ana Gómez</p>
+            <p><span class="negrita">Fecha:</span>02/03/2025</p>
+            <p>El diseño web es una parte fundamental en el desarrollo de aplicaciones
+               web
+            </p>
+            <button onclick="aumentarLikes(this)" class="meGusta"><span>30</span> Me gusta</button>
+         </div>
+      </section>
+      <section class="derecha">
+          <div class="derechaX2">
+            <h2>¡Bienvenido!</h2>
+            <p>Explora nuevas publicaciones y conecta con otros usuarios.
+            </p>
+            <button onclick="verPerfil()" class="perfil">Ver perfil</button>
+         </div>
+      </section>
+   </main>
 </body>
 
 </html>
