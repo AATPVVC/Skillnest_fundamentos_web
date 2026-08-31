@@ -1,0 +1,30 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   background-color: #f4f4f4;
+   font-family: Arial, sans-serif;
+}
+
+button{
+   padding: 12px 24px;
+   font-size: 18px;
+   background-color: #ff7eb3;
+   color: white;
+   border: none;
+   cursor: pointer;
+   transition: background-color 0.3s ease, transform 0.2s ease;
+   border-radius: 5px;
+}
+
+button:hover {
+   background-color: #ff4d94;
+   transform: scale(1.1);
+}
