@@ -53,7 +53,7 @@ body {
   padding: 40px 20px;
 }
 
-.card {
+.tarjeta {
   background-color: #ffffff;
   padding: 16px;
   border-radius: 12px;
@@ -62,7 +62,7 @@ body {
   text-align: center;
 }
 
-.card img {
+.tarjeta img {
   width: 100%;
   height: auto;
   border-radius: 8px;
