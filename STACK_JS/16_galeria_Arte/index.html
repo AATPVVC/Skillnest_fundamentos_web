@@ -1,14 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta name="author" content="Angel Alvarez">
-   <link rel="stylesheet" href="static/css/style.css">
-   <title>Galeria de arte</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Angel Alvarez">
+  <title>Galeria De Arte</title>
+  <link rel="stylesheet" href="static/css/style.css">
 </head>
 <body>
-   
-   <script src="static/js/script.js" defer></script>
+
+  <header class="navbar">
+    <h1 class="logo">La Galeria De Arte</h1>
+    <input type="text" class="search-input" placeholder="Buscar arte...">
+    <button class="login-btn">Iniciar sesión</button>
+  </header>
+
+  <main class="main-content">
+    <div class="card">
+      <img id="gallery-img" src="static/images/image1.png" alt="Campo de trigo con cipreses">
+      <p id="gallery-caption" class="caption">Campo de trigo con cipreses, Vincent van Gogh (1889)</p>
+    </div>
+  </main>
+
+  <script src="static/js/script.js"></script>
 </body>
 </html>
