@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Angel Alvarez">
+    <title>Me gusta</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+
+<body>
+    <header class="nav">
+        <h1>Social like</h1>
+    </header>
+    <main class="container">
+        <section class="izquierda">
+            <div class="tarjeta">
+                <img src="static/images/misato.jfif" alt="sans">
+                <h2>Misato</h2>
+                <div class="contenedor-perfil">
+                    <button class="perfil">Mi perfil</button>
+                </div>
+            </div>
+        </section>
+        <section class="derecha">
+            <h2>Ultimas publicaciones</h2>
+            <div class="contenedor-tarjetas">
+                <div class="tarjetasLikes">
+                    <div class="fila-superior">
+                        <h3>Rei</h3>
+                        <div class="likes">
+                            <p><span id="likes-1">0</span>like(s)</p>
+                            <button onclick="sumarLike('#likes-1')" class="like">Like</button>
+                        </div>
+                    </div>
+                    <p>Acabo de configura este nuevo <a href="#">bot de discord</a> cuentame que opinan ustedes.
+                    </p>
+
+                </div>
+                <div class="tarjetasLikes">
+                    <div class="fila-superior">
+                        <h3>Asuka</h3>
+                        <div class="likes">
+                            <p><span id="likes-2">0</span>like(s)</p>
+                            <button onclick="sumarLike('#likes-2')" class="like">Like</button>
+                        </div>
+                    </div>
+                    <p>Acabo de leer este <a href="#">nuevo comic</a>.Denle un vistazo. </p>
+
+                </div>
+                <div class="tarjetasLikes">
+                    <div class="fila-superior">
+                        <h3>Shinji</h3>
+                        <div class="likes">
+                            <p><span id="likes-3">0</span>like(s)</p>
+                            <button onclick="sumarLike('#likes-3')" class="like">Like</button>
+                        </div>
+                    </div>
+                    <p>No puedo dejar de escuchar este <a href="#">album</a>. ¿A quien mas le gusta</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="static/js/script.js"></script>
+</body>
+
+</html>
