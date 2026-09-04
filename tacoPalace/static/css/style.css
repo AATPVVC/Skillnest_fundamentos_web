@@ -1,0 +1,94 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+body {
+   background-color: #FFFFFF;
+   font-family: Arial, sans-serif;
+}
+.nav {
+   display: flex;
+   justify-content: space-between;
+   background-color: #F7F7F7;
+   height: 70px;
+   padding: 10px 25px;
+}
+.naranja {
+   color: #E36613;
+}
+.logo {
+   display: flex;
+   flex-direction: row;
+   color: black;
+   align-items: center;
+}
+.registrarse-compra {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+}
+.logiarse {
+   display: flex;
+}
+.compras {
+   display: flex;
+}
+.Login {
+   display: flex;
+   background-color: #FF6400;
+   color: #f4f4f4;
+}
+.container {
+   display: flex;
+   padding: 0px 100px;
+   flex-direction: column;
+}
+.arriba {
+   display: flex;
+   flex-direction: column;
+   background-color: #FEE8C6;
+   padding: 7px  25px;
+   flex-wrap: wrap;
+}
+.contenedor-img {
+   display: flex;
+   flex-direction: row;
+   gap: 40px;
+   
+}
+.imagenes {
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+}
+.comidas {
+   height: 150px;
+   width: 150px;
+}
+.abajo {
+   display: flex;
+   padding: 13px 0px;
+   gap: 15px;
+}
+.abajo-izquierda {
+   display: flex;
+   background-color: #C5C5C5;
+   padding: 30px 23px;
+}
+.parrafo {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+   gap: 30px;
+}
+.imagen-Grande {
+   height: 300px;
+   width: 400px;
+}
+.ordenes {
+   height: 200px;
+   width: 300px;
+}
