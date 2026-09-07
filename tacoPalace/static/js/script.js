@@ -5,21 +5,20 @@ function compras(idElemento) {
   contador.innerText = numeroActual + 1;
 }
 //Cambio imagen
-const galleryImg = document.getElementById("gallery-img");
-const galleryCaption = document.getElementById("gallery-caption");
+const galleryImg = document.getElementById("imagen-Grandota");
 
-const originalImageSrc = "static/images/image1.png";
-const hoverImageSrc = "static/images/image2.png";
 
-const originalCaption = "Campo de trigo con cipreses, Vincent van Gogh (1889)";
-const hoverCaption = "Noche estrellada sobre el Rodano, Vincent van Gogh (1888)";
+const originalImageSrc = "static/images/comida-mexicana.jpg";
+const hoverImageSrc = "static/images/comida-mexicana2.jpg";
+
+
 
 galleryImg.addEventListener("mouseover", () => {
   galleryImg.src = hoverImageSrc;
-  galleryCaption.textContent = hoverCaption;
+  
 });
 
 galleryImg.addEventListener("mouseout", () => {
   galleryImg.src = originalImageSrc;
-  galleryCaption.textContent = originalCaption;
+  
 });
