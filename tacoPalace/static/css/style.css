@@ -188,9 +188,7 @@ body {
     flex-direction: column;
     gap: 15px;
 }
-.abajo-derecha a {
-    color: white;
-}
+
 .abajo-derecha h1 {
     font-size: 22px;
     font-weight: bold;
